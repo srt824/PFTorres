@@ -59,10 +59,14 @@ img{
     margin-bottom: 70px;
 }
 
+.logo{
+    margin-bottom: 70px;
+    background-color: aqua;
+}
+
 .menu{
-    
+    margin-bottom: 150px;
     font-family: 'Montserrat', sans-serif;;
-    /*margin: 30px 30px 30px 30px;*/
     padding-top: 10px;
 }
 
@@ -162,13 +166,6 @@ img{
 
 /* ortodoncia.html*/
 
-#headerOrt{
-    display: flex;
-    width: 100%;
-    margin-bottom: 70px;
-    align-content: space-between;
-}
-
 #ortTexto{
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -191,6 +188,7 @@ img{
 }
 
 #metImg{
+    width: 35%;
     border-radius: 5px;
     box-shadow: 2px 2px 2px;
 }
@@ -202,21 +200,22 @@ img{
 }
 
 #bracketPorce{
-    
     padding-top: 20px;
-    margin-left: 200px;
     width: 50%;
 }
 
 #porceImg{
+    width: 30%;
+    margin-left: 260px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px;
 }
 
 #porceText{
     padding-top: 20px;
-    margin-left: 110px;
+    margin-left: 260px;
     font-family: 'Roboto', sans-serif;
+    height: 50px;
 }
 
 #contentPorce{
@@ -256,10 +255,10 @@ img{
 }
 
 #infImg{
-    width: 75%;
+    width: 95%;
     margin-top: 70px;
     margin-bottom: 50px;
-    margin-left: 20px;
+    margin-left: 40px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px;
 }
@@ -293,17 +292,47 @@ img{
 
 #imgListGral{
     width: 30%;
-    display: flex;
+    display: grid;
     justify-content: left;
+    order: 1;
 }
 
 
 
 
 
+.odGeneral{
+    margin-right: 100px;
+    font-family: 'Roboto', sans-serif;
+}
 
 
+.implantologia{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
 
+.impText{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* contacto.html */
+
+#contacto{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+}
 
 
 
