@@ -1,0 +1,315 @@
+
+@media (min-width: 576px) and (max-width: 768px){
+    .intro{
+        margin-left: 30px;
+        text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to left, pink, white);
+}
+
+
+img{
+    width: 150px;
+    margin-left: 100px;
+}
+
+.redes{
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+.alinearTextoRedes{
+    margin-right: 120px;
+}
+
+.imgInsta{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 70px;
+}
+
+.imgFace{
+    width: 30px;
+    height: 30px;
+}
+
+.imgTwit{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 70px;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.menu{
+    
+    font-family: 'Montserrat', sans-serif;;
+    /*margin: 30px 30px 30px 30px;*/
+    padding-top: 10px;
+}
+
+.menu li{
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    font-size: 25px;
+    padding: 10px;
+    text-align: right;
+}
+
+.menu a{
+    text-decoration: none;
+    color: grey;
+}
+
+.menu li a:hover{
+    background-color: rgb(43, 245, 177);
+}
+
+.submenu{
+    position: absolute;
+    display: none;
+}
+
+.submenu li {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    text-align: left;
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+
+.title{
+    width: 30%;
+    margin-left: 40px;
+    font-size: 30px;
+    text-align: left;
+    float: left;
+    color: grey;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.intro{
+    margin-left: 30px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.consultorios{
+    width: 30%;
+    /* border: 2px solid grey;
+    border-radius: 3px; */
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: grey;
+    text-shadow: 2px 2px 4px;
+    float: left;
+}
+
+
+.imgStyle{
+    margin: 1px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px;
+}
+
+.imgStyle:hover{
+    transform: scale(1.05, 1.05);
+}
+
+.consultas{
+    width: 30%;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    color: grey;
+}
+
+.foot{
+    position: absolute;
+    width: 97%;
+    font-size: 15px;
+    bottom: 30px;
+    left: 30px;
+}
+
+.derechos{
+    text-align: right;
+}
+
+/* ortodoncia.html*/
+
+#headerOrt{
+    display: flex;
+    width: 100%;
+    margin-bottom: 70px;
+    align-content: space-between;
+}
+
+#ortTexto{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    width: 40%;
+    margin-left: 20px;
+}
+
+#ortSubtit{
+    text-align: center;
+    width: 40%;
+    padding: 40px;
+    font-family: sans-serif;
+}
+
+#brackets{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#metImg{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+}
+
+#metaText{
+    margin-left: 100px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#bracketPorce{
+    
+    padding-top: 20px;
+    margin-left: 200px;
+    width: 50%;
+}
+
+#porceImg{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+}
+
+#porceText{
+    padding-top: 20px;
+    margin-left: 110px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contentPorce{
+    width: 20%;
+}
+
+#zafiroImg{
+    margin-right: 100px;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+}
+
+#zafiroText{
+    padding-top: 20px;
+    margin-left: 110px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#brackets2{
+    display: flex;
+    align-content: center;
+}
+
+#invImg{
+    width: 25%;
+    margin-left: 300px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+}
+
+#invText{
+    padding-top: 20px;
+    margin-left: 320px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#infImg{
+    width: 75%;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+}
+
+#infText{
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#footOrt{
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#redes2Text{
+    display: flex;
+    justify-content: end;
+}
+
+/* Blog.html */
+
+#frecuentes{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;    
+}
+
+#imgListGral{
+    width: 30%;
+    display: flex;
+    justify-content: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
