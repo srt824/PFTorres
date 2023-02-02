@@ -51,9 +51,14 @@ img{
     margin-bottom: 70px;
 }
 
+.header2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 40px;
+}
+
 .logo{
     margin-bottom: 70px;
-    background-color: aqua;
 }
 
 .menu{
@@ -100,19 +105,14 @@ img{
     font-size: 30px;
     text-align: left;
     color: grey;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.intro{
-    margin-left: 30px;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Times New Roman', Times, sans-serif;
 }
 
 .consultorios{
-    width: 30%;
-    /* border: 2px solid grey;
-    border-radius: 3px; */
+    width: 20%;
+    height: 430px;
+    border: 2px solid grey;
+    border-radius: 3px; 
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -157,6 +157,7 @@ img{
     font-size: 30px;
     width: 40%;
     margin-left: 20px;
+    color: grey;
 }
 
 #ortSubtit{
@@ -164,6 +165,7 @@ img{
     width: 40%;
     padding: 40px;
     font-family: sans-serif;
+    color: grey;
 }
 
 #brackets{
@@ -182,11 +184,7 @@ img{
     margin-left: 100px;
     padding-top: 20px;
     font-family: 'Roboto', sans-serif;
-}
-
-#bracketPorce{
-    padding-top: 20px;
-    width: 50%;
+    color: grey;
 }
 
 #porceImg{
@@ -201,6 +199,7 @@ img{
     margin-left: 260px;
     font-family: 'Roboto', sans-serif;
     height: 50px;
+    color: grey;
 }
 
 #contentPorce{
@@ -218,6 +217,7 @@ img{
     padding-top: 20px;
     margin-left: 110px;
     font-family: 'Roboto', sans-serif;
+    color: grey;
 }
 
 #brackets2{
@@ -237,10 +237,11 @@ img{
     padding-top: 20px;
     margin-left: 320px;
     font-family: 'Roboto', sans-serif;
+    color: grey;
 }
 
 #infImg{
-    width: 95%;
+    width: 80%;
     margin-top: 70px;
     margin-bottom: 50px;
     margin-left: 40px;
@@ -252,17 +253,15 @@ img{
     margin-bottom: 10px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    color: grey;
 }
 
-#footOrt{
-    text-align: right;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-#redes2Text{
+#redesOrt{
     display: flex;
     justify-content: end;
+    height: 200px;
+    align-items: center;
+    color: grey;
 }
 
 /* Blog.html */
@@ -275,22 +274,24 @@ img{
     text-align: left;    
 }
 
-#imgListGral{
-    width: 30%;
-    display: grid;
-    justify-content: left;
-    order: 1;
-}
+/* odGeneral.html */
 
-
-
-
-
-.odGeneral{
-    margin-right: 100px;
+#general{
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
+    color: grey;
 }
 
+#generalImg{
+    position: sticky;
+    width: 400px;
+}
+
+.slogan{
+    text-align: center;
+}
+
+/* Implantología.html */
 
 .implantologia{
     font-size: 20px;
@@ -312,11 +313,19 @@ img{
 
 .contacto{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     margin-top: 20px;
     margin-left: 20px;
+    color: grey;
+}
+
+#contactoTitle{
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: grey;
 }
 
 
