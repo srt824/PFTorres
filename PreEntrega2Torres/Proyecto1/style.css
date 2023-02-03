@@ -6,14 +6,18 @@
 }
 
 body{
-    background-image: linear-gradient(to left, pink, white);
+    background-image: linear-gradient(to right, aquamarine, white);
 }
 
 /* index.html */
 
-img{
-    width: 150px;
+.img{
+    width: 200px;
     margin-left: 100px;
+}
+
+#imgRedesIndex{
+    width: 90%;
 }
 
 .redes{
@@ -82,7 +86,7 @@ img{
 }
 
 .menu li a:hover{
-    background-color: rgb(252, 153, 169);
+    background-color: aquamarine;
 }
 
 .submenu{
@@ -122,14 +126,15 @@ img{
 }
 
 
-.imgStyle{
+.imgConsultorios{
+    width: 150px;
     margin: 1px;
     border-radius: 2px;
     box-shadow: 2px 2px 4px;
 }
 
-.imgStyle:hover{
-    transform: scale(1.05, 1.05);
+.imgConsultorios:hover{
+    transform: scale(1.5, 1.5);
 }
 
 .consultas{
@@ -175,6 +180,7 @@ img{
 }
 
 #metImg{
+    margin-left: 100px;
     width: 35%;
     border-radius: 5px;
     box-shadow: 2px 2px 2px;
@@ -215,7 +221,7 @@ img{
 
 #zafiroText{
     padding-top: 20px;
-    margin-left: 110px;
+    margin-left: 20px;
     font-family: 'Roboto', sans-serif;
     color: grey;
 }
@@ -250,16 +256,18 @@ img{
 }
 
 #infText{
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: grey;
 }
 
-#redesOrt{
-    display: flex;
-    justify-content: end;
-    height: 200px;
+
+
+#redesImgOrt{
+    margin: 40px 40px 40px 40px;
+    text-align: right;
+    height: 100px;
     align-items: center;
     color: grey;
 }
@@ -277,14 +285,15 @@ img{
 /* odGeneral.html */
 
 #general{
+    margin-left: 30px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     color: grey;
 }
 
-#generalImg{
-    position: sticky;
-    width: 400px;
+.generalImg{
+    margin-left: 600px;
+    margin-top: -450px;
 }
 
 .slogan{
