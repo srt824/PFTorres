@@ -66,6 +66,7 @@ body{
 }
 
 .menu{
+    text-align: left;
     margin-bottom: 150px;
     font-family: 'Montserrat', sans-serif;;
     padding-top: 10px;
@@ -86,7 +87,7 @@ body{
 }
 
 .menu li a:hover{
-    background-color: aquamarine;
+    background-color: white;
 }
 
 .submenu{
@@ -165,6 +166,15 @@ body{
     color: grey;
 }
 
+.ortTexto{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    width: 40%;
+    margin-left: 20px;
+    color: grey;
+}
+
 #ortSubtit{
     text-align: center;
     width: 40%;
@@ -173,7 +183,7 @@ body{
     color: grey;
 }
 
-#brackets{
+.brackets{
     display: flex;
     align-items: flex-start;
     width: 100%;
@@ -229,6 +239,7 @@ body{
 #brackets2{
     display: flex;
     align-content: center;
+    justify-content: center;
 }
 
 #invImg{
@@ -261,8 +272,6 @@ body{
     font-family: 'Roboto', sans-serif;
     color: grey;
 }
-
-
 
 #redesImgOrt{
     margin: 40px 40px 40px 40px;
