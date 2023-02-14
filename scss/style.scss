@@ -1,0 +1,84 @@
+
+.redes{
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 100px;
+
+    .alinearTextoRedes{
+        margin-right: 120px;
+    }
+
+    .imgRedesIndex{
+        width: 90%;
+    
+
+        .imgInsta{
+            width: 30px;
+            height: 30px;
+            position: relative;
+            left: 70px;
+        }
+
+        .imgFace{
+            width: 30px;
+            height: 30px;
+        }
+
+        .imgTwit{
+            width: 30px;
+            height: 30px;
+            position: relative;
+            right: 70px;
+        }
+    }     
+
+    .menu{
+        background-image: linear-gradient(to right, pink, white);
+        text-align: right !important;
+        margin-bottom: 150px;
+        font-family: 'Montserrat', sans-serif;
+    
+        .menu li{
+            position: relative;
+            display: inline-block;
+            margin: 10px;
+            font-size: 25px;
+            padding: 10px;
+            text-align: right;
+        }
+
+        .menu a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .menu li a{
+            &:hover{background-color: rgb(221, 215, 215);}
+        }
+
+        .submenu{
+            position: absolute;
+            display: none;
+        }
+
+        .submenu li {
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+            text-align: left;
+        }
+
+        .menu li:hover .submenu{
+            display: block;
+        }
+    }    
+}
+
+.header2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    width: 250px;
+    background-image: linear-gradient(to right, pink, white);
+
+}

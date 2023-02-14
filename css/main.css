@@ -1,0 +1,55 @@
+.redes {
+  text-align: right;
+  margin-top: 30px;
+  margin-right: 100px; }
+  .redes .alinearTextoRedes {
+    margin-right: 120px; }
+  .redes .imgRedesIndex {
+    width: 90%; }
+    .redes .imgRedesIndex .imgInsta {
+      width: 30px;
+      height: 30px;
+      position: relative;
+      left: 70px; }
+    .redes .imgRedesIndex .imgFace {
+      width: 30px;
+      height: 30px; }
+    .redes .imgRedesIndex .imgTwit {
+      width: 30px;
+      height: 30px;
+      position: relative;
+      right: 70px; }
+  .redes .menu {
+    background-image: linear-gradient(to right, pink, white);
+    text-align: right !important;
+    margin-bottom: 150px;
+    font-family: 'Montserrat', sans-serif; }
+    .redes .menu .menu li {
+      position: relative;
+      display: inline-block;
+      margin: 10px;
+      font-size: 25px;
+      padding: 10px;
+      text-align: right; }
+    .redes .menu .menu a {
+      text-decoration: none;
+      color: black; }
+    .redes .menu .menu li a:hover {
+      background-color: #ddd7d7; }
+    .redes .menu .submenu {
+      position: absolute;
+      display: none; }
+    .redes .menu .submenu li {
+      display: block;
+      text-decoration: none;
+      padding: 15px;
+      text-align: left; }
+    .redes .menu .menu li:hover .submenu {
+      display: block; }
+
+.header2 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 20px;
+  width: 250px;
+  background-image: linear-gradient(to right, pink, white); }

@@ -9,6 +9,47 @@ body{
     background-image: linear-gradient(to right, aquamarine, white);
 }
 
+.menu{
+    background-image: linear-gradient(to right, pink, white);
+    text-align: right !important;
+    margin-bottom: 150px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu li{
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    font-size: 25px;
+    padding: 10px;
+    text-align: right;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu li a:hover{
+    background-color: rgb(221, 215, 215);
+}
+
+.submenu{
+    position: absolute;
+    display: none;
+}
+
+.submenu li {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    text-align: left;
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+
 /* index.html */
 
 .img{
@@ -49,67 +90,27 @@ body{
     right: 70px;
 }
 
-.header{
-    background-image: linear-gradient(to right, aquamarine, white);
-}
+
 
 .header2{
     display: flex;
     flex-direction: row-reverse;
     margin-top: 20px;
-    width: 150px;
-    background-image: linear-gradient(to right, aquamarine, white);
+    width: 250px;
+    background-image: linear-gradient(to right, pink, white);
 }
 
 .logo{
     margin-bottom: 70px;
 }
 
-.menu{
-    text-align: right !important;
-    margin-bottom: 150px;
-    font-family: 'Montserrat', sans-serif;
-}
 
-.menu li{
-    position: relative;
-    display: inline-block;
-    margin: 10px;
-    font-size: 25px;
-    padding: 10px;
-    text-align: right;
-}
-
-.menu a{
-    text-decoration: none;
-    color: grey;
-}
-
-.menu li a:hover{
-    background-color: aquamarine;
-}
-
-.submenu{
-    position: absolute;
-    display: none;
-}
-
-.submenu li {
-    display: block;
-    text-decoration: none;
-    padding: 15px;
-    text-align: left;
-}
-
-.menu li:hover .submenu{
-    display: block;
-}
 
 .bienvenida{
     font-size: 30px;
     text-align: left;
     color: grey;
-    font-family:'Times New Roman', Times, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .consultorios{
@@ -139,7 +140,9 @@ body{
 
 .consultas{
     width: 30%;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    
+
     font-size: 20px;
     float: left;
     text-align: center;
@@ -152,6 +155,7 @@ body{
     margin-top: 50px;
     font-size: 12px;
     text-align: center;
+    background-image: linear-gradient(to right, pink, white);
 }
 
 /* ortodoncia.html*/
@@ -184,6 +188,8 @@ body{
     width: 35%;
     border-radius: 5px;
     box-shadow: 2px 2px 2px;
+    position: relative;
+    display: inline-block;
 }
 
 #metaText{
@@ -198,6 +204,7 @@ body{
     margin-left: 260px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px;
+    position: relative;
 }
 
 #porceText{
@@ -217,6 +224,7 @@ body{
     width: 30%;
     border-radius: 5px;
     box-shadow: 2px 2px 2px;
+    position: relative;
 }
 
 #zafiroText{
@@ -237,6 +245,7 @@ body{
     margin-top: 50px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px;
+    position: relative;
 }
 
 #invText{
@@ -253,6 +262,8 @@ body{
     margin-left: 40px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px;
+    position: relative;
+
 }
 
 #infText{
@@ -263,7 +274,7 @@ body{
 }
 
 #redesImgOrt{
-    margin: 40px 40px 40px 40px;
+    margin: 40px ;
     text-align: right;
     height: 100px;
     align-items: center;
@@ -273,7 +284,7 @@ body{
 /* Blog.html */
 
 #frecuentes{
-    margin-left: 30px;
+    margin-left: 20px;
     margin-bottom: 30px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
@@ -335,7 +346,9 @@ body{
     color: grey;
 }
 
-
+.iframe{
+    width: 470px;
+}
 
 
 
