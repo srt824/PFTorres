@@ -160,11 +160,11 @@ body{
 
 /* ortodoncia.html*/
 
-#ortTexto{
-    text-align: center;
+#ortTitle{
+    text-align: left;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
-    width: 40%;
+    width: 35%;
     margin-left: 20px;
     color: grey;
 }
@@ -173,104 +173,22 @@ body{
     text-align: center;
     width: 40%;
     padding: 40px;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: grey;
 }
 
-#brackets{
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
-}
-
-#metImg{
-    margin-left: 200px;
-    width: 35%;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px;
-    position: relative;
-    display: inline-block;
-}
-
-#metaText{
-    margin-left: 100px;
+.imgText{
+    margin-left: 250px;
     padding-top: 20px;
     font-family: 'Roboto', sans-serif;
     color: grey;
 }
 
-#porceImg{
-    width: 200px;
-    margin-left: 260px;
+.imgOrt{
+    width: 385px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px;
-    position: relative;
-}
-
-#porceText{
-    padding-top: 20px;
-    margin-left: 260px;
-    font-family: 'Roboto', sans-serif;
-    height: 50px;
-    color: grey;
-}
-
-#contentPorce{
-    width: 20%;
-}
-
-#zafiroImg{
-    margin-right: 200px;
-    width: 30%;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px;
-    position: relative;
-}
-
-#zafiroText{
-    padding-top: 20px;
-    margin-left: 20px;
-    font-family: 'Roboto', sans-serif;
-    color: grey;
-}
-
-#brackets2{
-    display: flex;
-    align-content: center;
-}
-
-#invImg{
-    width: 200px;
-    margin-left: 300px;
-    margin-top: 50px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px;
-    position: relative;
-}
-
-#invText{
-    padding-top: 20px;
-    margin-left: 320px;
-    font-family: 'Roboto', sans-serif;
-    color: grey;
-}
-
-#infImg{
-    width: 200px;
-    margin-top: 70px;
-    margin-bottom: 50px;
-    margin-left: 40px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px;
-    position: relative;
-
-}
-
-#infText{
-    margin-bottom: 30px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color: grey;
+    margin-left: 70px;
 }
 
 #redesImgOrt{

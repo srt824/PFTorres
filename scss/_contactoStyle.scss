@@ -1,12 +1,15 @@
 $bg-header-footer: linear-gradient(to right, pink, white);
 $font-type: 'Montserrat', sans-serif;
 
+body{
+    
+}
 .menu{
     background-image: $bg-header-footer;
     text-align: right !important;
     margin-bottom: 150px;
     font-family: $font-type;
-    
+    background-color: darkturquoise;
 
     a{
         display: flex;
@@ -67,7 +70,7 @@ $font-type: 'Montserrat', sans-serif;
     color: grey;
 
     .iframe{
-        width: 470px;
+        
     }
 }
 

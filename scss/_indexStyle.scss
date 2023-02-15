@@ -2,10 +2,13 @@ $width-redes: 30px;
 $height-redes: 30px;
 $bg-header-footer: linear-gradient(to right, pink, white);
 
-
+body{
+    background-color: darkturquoise;
+}
 .redes{
     h4{
         margin-right: 120px;
+        color: darkturquoise;
     }
 
     .imgRedesIndex{

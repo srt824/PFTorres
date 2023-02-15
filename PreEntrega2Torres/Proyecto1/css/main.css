@@ -155,12 +155,14 @@ body {
   text-align: center;
   background-image: linear-gradient(to right, pink, white); }
 
+body {
+  background-color: darkturquoise; }
+
 .menu {
   background-image: linear-gradient(to right, pink, white);
   text-align: right !important;
   margin-bottom: 150px;
-  font-family: "Montserrat", sans-serif;
-  background-color: darkturquoise; }
+  font-family: "Montserrat", sans-serif; }
   .menu a {
     display: flex;
     flex-direction: row-reverse;
@@ -203,6 +205,8 @@ body {
   margin-top: 20px;
   margin-left: 30px;
   color: grey; }
+  .contacto .iframe {
+    width: 470px; }
 
 #contactoTitle {
   height: 100px;
