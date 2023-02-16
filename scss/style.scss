@@ -1,6 +1,13 @@
+
+body{
+    background-image: linear-gradient(to right, aquamarine, white);
+}
+
+@import "menu";
 @import "indexStyle";
 @import "blogStyle";
 @import "contactoStyle";
 @import "implantStyle";
 @import "ortodoncia";
 @import "general";
+@import "footer";

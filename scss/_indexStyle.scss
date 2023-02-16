@@ -1,140 +1,75 @@
-$width-redes: 30px;
-$height-redes: 30px;
-$bg-header-footer: linear-gradient(to right, pink, white);
 
-body{
-    background-color: darkturquoise;
+$font-color: grey;
+$font-type: 'Roboto', sans-serif;
+
+@mixin img-ig-tw{
+    width: 30px;
+    height: 30px;
+    position: relative;
 }
+
 .redes{
-    h4{
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 100px;
+
+    .alinearTextoRedes{
         margin-right: 120px;
-        color: darkturquoise;
     }
 
-    .imgRedesIndex{
-        .imgInsta{
-            width: $width-redes;
-            height: $height-redes;
-            position: relative;
-            left: 70px;
-        }
+    .imgInsta{
+        @include img-ig-tw();
+        left: 70px;
     }
-
+    
     .imgFace{
-        width: $width-redes;
-        height: $height-redes;
+        width: 30px;
+        height: 30px;
     }
-
+    
     .imgTwit{
-        width: $width-redes;
-        height: $height-redes;
-        position: relative;
+        @include img-ig-tw();
         right: 70px;
     }
 }
 
-.menu{ 
-    background-image: $bg-header-footer;
-    text-align: right !important;
-    margin-bottom: 150px;
-    font-family: 'Montserrat', sans-serif;
-    
-    a{
-        display: flex;
-        flex-direction: row-reverse;
-        margin-top: 20px;
-        width: 250px;
-        background-image: $bg-header-footer;
-    }
- 
-    li{
-    position: relative;
-    display: inline-block;
-    margin: 10px;
-    font-size: 25px;
-    padding: 10px;
-    text-align: right;
+.bienvenida{
+    font-size: 30px;
+    text-align: left;
+    color: $font-color;
+    font-family: $font-type;
 
-        a{
-            &:hover{
-                text-decoration: none;
-            color: black; 
-            background-color: rgb(221, 215, 215);
-            } 
-        } 
-    }
-    
-    .submenu{
-        position: absolute;
-        display: none;
-    
-        li {
-            display: block;
-            text-decoration: none;
-            padding: 15px;
-            text-align: left;
-            &:hover{
-                display: block;
-            }
-        }
-    }
-
-    .header2{
-        display: flex;
-        flex-direction: row-reverse;
-        margin-top: 20px;
-        width: 250px;
-        background-image: $bg-header-footer;
-    }
-}
-
-.container{
-    .bienvenida{
-        font-size: 30px;
-        text-align: left;
-        color: grey;
-        font-family: 'Roboto', sans-serif;
-    }
-    
     .consultorios{
         width: 20%;
         height: 430px;
         border: 2px solid grey;
         border-radius: 3px; 
         font-size: 30px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font-type;
         text-align: center;
         color: grey;
         text-shadow: 2px 2px 4px;
         float: left;
-    }
-    
-    
-    .imgConsultorios{
-        width: 150px;
-        margin: 1px;
-        border-radius: 2px;
-        box-shadow: 2px 2px 4px;
-        &:hover{
-            transform: scale(1.5, 1.5);
+
+        .imgConsultorios{
+            width: 150px;
+            margin: 1px;
+            border-radius: 2px;
+            box-shadow: 2px 2px 4px;
+            &:hover{
+                transform: scale(1.5, 1.5);
+            }
+            
         }
     }
-        
+
     .consultas{
         width: 30%;
-        font-family: 'Roboto', sans-serif;
+        font-family: $font-type;
         font-size: 20px;
         float: left;
         text-align: center;
-        color: grey;
+        color: $font-color;
         float: left;
     }
-}
-
-.footer{
-    height: 100px;
-    margin-top: 50px;
-    font-size: 12px;
-    text-align: center;
-    background-image: $bg-header-footer;
 }

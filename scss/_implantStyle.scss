@@ -1,73 +1,11 @@
-$bg-header-footer: linear-gradient(to right, pink, white);
-$font-type: 'Roboto', sans-serif;
 
-@mixin implantologia{
-    font-size: 20px;
-    font-family: $font-type;
-    text-align: left;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-
-.menu{ 
-    background-image: $bg-principal;
-    text-align: right !important;
-    margin-bottom: 150px;
-    font-family: $font-type;
-        
-    
-    a{
-        display: flex;
-        flex-direction: row-reverse;
-        margin-top: 20px;
-        width: 250px;
-        background-image: $bg-header-footer;
-    }
-     
-    li{
-        position: relative;
-        display: inline-block;
-        margin: 10px;
-        font-size: 25px;
-        padding: 10px;
-        text-align: right;
-    
-        a{
-            &:hover{
-                text-decoration: none;
-                color: black; 
-                background-color: rgb(221, 215, 215);
-            } 
-        }    
-    
-    }  
-    .submenu{
-        position: absolute;
-        display: none;
-        
-        li {
-            display: block;
-            text-decoration: none;
-            padding: 15px;
-            text-align: left;
-            &:hover{
-                display: block;
-            }
-        }
-    }
-
-    .header2{
-        display: flex;
-        flex-direction: row-reverse;
-        margin-top: 20px;
-        width: 250px;
-        background-image: $bg-header-footer;
-    }
+@mixin img-ig-tw{
+    width: 30px;
+    height: 30px;
+    position: relative;
 }
 
 .container-fluid{
-
     .implantologia{
         font-size: 20px;
         font-family: $font-type;
@@ -77,13 +15,15 @@ $font-type: 'Roboto', sans-serif;
     }
     
     .impText{
-        @include implantologia()
+        font-size: 20px;
+        font-family: $font-type;
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 20px;
     }
 
     .imgInsta{
-        width: 30px;
-        height: 30px;
-        position: relative;
+        @include img-ig-tw();
         left: 70px;
     }
     
@@ -93,17 +33,7 @@ $font-type: 'Roboto', sans-serif;
     }
     
     .imgTwit{
-        width: 30px;
-        height: 30px;
-        position: relative;
+        @include img-ig-tw();
         right: 70px;
-    }
-
-    .footer{
-        height: 100px;
-        margin-top: 50px;
-        font-size: 12px;
-        text-align: center;
-        background-image: $bg-header-footer;
     }
 }

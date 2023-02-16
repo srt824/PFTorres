@@ -31,35 +31,18 @@ body{
 }
 
 .menu li a:hover{
-    background-color: rgb(221, 215, 215);
+    background-color: darkgrey;
 }
 
-.submenu{
-    position: absolute;
-    display: none;
-}
-
-.submenu li {
-    display: block;
-    text-decoration: none;
-    padding: 15px;
-    text-align: left;
-}
-
-.menu li:hover .submenu{
-    display: block;
+.footer{
+    height: 100px;
+    margin-top: 50px;
+    font-size: 12px;
+    text-align: center;
+    background-image: linear-gradient(to right, pink, white);
 }
 
 /* index.html */
-
-.img{
-    width: 200px;
-    margin-left: 100px;
-}
-
-#imgRedesIndex{
-    width: 90%;
-}
 
 .redes{
     text-align: right;
@@ -90,8 +73,6 @@ body{
     right: 70px;
 }
 
-
-
 .header2{
     display: flex;
     flex-direction: row-reverse;
@@ -99,12 +80,6 @@ body{
     width: 250px;
     background-image: linear-gradient(to right, pink, white);
 }
-
-.logo{
-    margin-bottom: 70px;
-}
-
-
 
 .bienvenida{
     font-size: 30px;
@@ -141,8 +116,6 @@ body{
 .consultas{
     width: 30%;
     font-family: 'Roboto', sans-serif;
-    
-
     font-size: 20px;
     float: left;
     text-align: center;
@@ -150,17 +123,9 @@ body{
     float: left;
 }
 
-.footer{
-    height: 100px;
-    margin-top: 50px;
-    font-size: 12px;
-    text-align: center;
-    background-image: linear-gradient(to right, pink, white);
-}
-
 /* ortodoncia.html*/
 
-#ortTitle{
+#ortText{
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
@@ -185,7 +150,7 @@ body{
 }
 
 .imgOrt{
-    width: 385px;
+    width: 380px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px;
     margin-left: 70px;
