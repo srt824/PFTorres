@@ -20,12 +20,6 @@ body {
   .menu a {
     text-decoration: none;
     color: black; }
-  .menu .header2 {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-top: 20px;
-    width: 250px;
-    background-image: linear-gradient(to right, pink, white); }
 
 .redes {
   text-align: right;
