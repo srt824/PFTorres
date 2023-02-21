@@ -34,42 +34,42 @@ $font-type: 'Roboto', sans-serif;
 }
 
 .bienvenida{
+    width: 30%;
     font-size: 30px;
     text-align: left;
     color: $font-color;
     font-family: $font-type;
+}
 
-    .consultorios{
-        width: 30%;
-        height: 430px;
-        border: 2px solid grey;
-        border-radius: 3px; 
-        font-size: 30px;
-        font-family: $font-type;
-        text-align: center;
-        color: grey;
-        text-shadow: 2px 2px 4px;
-        float: left;
+.consultorios{
+    width: 30%;
+    height: 430px;
+    border: 2px solid grey;
+    border-radius: 3px; 
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: $font-type;
+    text-shadow: 2px 2px 4px;
+    float: left;
 
-        .imgConsultorios{
-            width: 150px;
-            margin: 1px;
-            border-radius: 2px;
-            box-shadow: 2px 2px 4px;
-            &:hover{
-                transform: scale(1.5, 1.5);
-            }
-            
+    .imgConsultorios{
+        width: 150px;
+        margin: 1px;
+        border-radius: 2px;
+        box-shadow: 2px 2px 4px;
+        &:hover{
+            transform: scale(1.5, 1.5);
         }
+        
     }
+}
 
-    .consultas{
-        width: 30%;
-        font-family: $font-type;
-        font-size: 20px;
-        float: left;
-        text-align: center;
-        color: $font-color;
-        float: left;
-    }
+.consultas{
+    width: 30%;
+    font-family: $font-type;
+    font-size: 20px;
+    text-align: center;
+    color: $font-color;
+    float: left;
 }

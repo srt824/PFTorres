@@ -48,36 +48,38 @@ body {
     right: 70px; }
 
 .bienvenida {
+  width: 30%;
   font-size: 30px;
   text-align: left;
   color: grey;
   font-family: "Roboto", sans-serif; }
-  .bienvenida .consultorios {
-    width: 30%;
-    height: 430px;
-    border: 2px solid grey;
-    border-radius: 3px;
-    font-size: 30px;
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-    color: grey;
-    text-shadow: 2px 2px 4px;
-    float: left; }
-    .bienvenida .consultorios .imgConsultorios {
-      width: 150px;
-      margin: 1px;
-      border-radius: 2px;
-      box-shadow: 2px 2px 4px; }
-      .bienvenida .consultorios .imgConsultorios:hover {
-        transform: scale(1.5, 1.5); }
-  .bienvenida .consultas {
-    width: 30%;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    float: left;
-    text-align: center;
-    color: grey;
-    float: left; }
+
+.consultorios {
+  width: 30%;
+  height: 430px;
+  border: 2px solid grey;
+  border-radius: 3px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: "Roboto", sans-serif;
+  text-shadow: 2px 2px 4px;
+  float: left; }
+  .consultorios .imgConsultorios {
+    width: 150px;
+    margin: 1px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px; }
+    .consultorios .imgConsultorios:hover {
+      transform: scale(1.5, 1.5); }
+
+.consultas {
+  width: 30%;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: grey;
+  float: left; }
 
 #frecuentes {
   margin-left: 20px;
